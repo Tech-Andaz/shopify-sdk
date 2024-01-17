@@ -1,0 +1,19 @@
+{
+    "name": "tech-andaz/ship-drill",
+    "description": "Tech Andaz's library/wrapper for managing Shopify's PHP Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tech Andaz",
+            "email": "contact@techandaz.com"
+        }
+    ],
+    "require": {
+        "shopify/shopify-api": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TechAndaz\\": "src/"
+        }
+    }
+}
